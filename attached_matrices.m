@@ -12,7 +12,6 @@ beta = sqrt(1-M^2);
 
 A1 = 0.3; A2 = 1-A1; A3 = 1.5; A4 = -0.5; A5 = 1.0;
 b1 = 0.14; b2 = 0.53; b3 = 0.25; b4 = 0.1; b5 = 0.5;
-% kNa = 0.75; kNq = 0.75; kMa = 0.8; kMq = 0.8;
 kNa = 1; kNq = 1; kMa = 1; kMq = 1;
 
 a = V/M; % Sound speed
