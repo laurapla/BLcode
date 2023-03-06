@@ -117,5 +117,5 @@ figure(4);
 plot(rad2deg(alpha_eff(N-n_t:N)),CM(N-n_t:N),'r')
 grid on
 xlabel('\alpha [º]');
-ylabel('C_{D}');
+ylabel('C_{M}');
 title([airfoil,', k=',num2str(k),', $\alpha=',num2str(rad2deg(alphabase)),'^{o}+',num2str(rad2deg(A_alpha)),'^{o}sin(\omega t)$'],'interpreter','latex');
